@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(150, 148, 148);
+}
+/* =======element=========== */
+.el-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-basis: auto;
+    box-sizing: border-box;
+    min-width: 0;
+    background-color:#fff;
+}
+.el-carousel__container {
+    position: relative;
+    height: 340px;
+}
+.el-menu.el-menu--horizontal {
+    border-bottom: solid 0px #e6e6e6;
+}
+.el-card.is-hover-shadow:hover {
+    z-index: 2;
+	box-shadow: 0 15px 30px rgba(0,0,1,.1);
+	transform: translate3d(0,-2px,0)
+}
+.el-col {
+    float: none;
+    display: inline-block;
+}
+.el-main {
+    width: 1244px;
+    display: block;
+    flex: 1;
+    flex-basis: auto;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0 auto;
+}
+.el-card__body {
+    padding: 0px;
+}
+
+
+
+
+
+/* =============height==================== */
+.m-height-mini {
+    height: 50px !important;
+}
+.m-height-small {
+    height: 150px !important;
+}
+.m-height {
+    height: 300px !important;
+}
+.m-height-big {
+    height: 350px !important;
+}
+.m-height-max {
+    height: 450px !important; 
+}
+/* =============width==================== */
+.m-width-mini {
+    width: 50px !important;
+}
+.m-width-small {
+    width: 150px !important;
+}
+.m-width {
+    width: 250px !important;
+}
+.m-width-big {
+    width: 350px !important;
+}
+.m-width-max {
+    width: 450px !important; 
+}
+/* =========m-el-card============== */
+.m-el-card-width {
+    width: 246px !important;
+
+}
+.m-el-padding-left-bottom {
+    padding-left: 14px !important;
+    padding-bottom: 14px !important;
+}
+/* =======margin======== */
+.m-margin-top {
+    margin-top: 30px;
+}
+/* =========margin-left-bottom================ */
+.m-margin-top-bottom {
+    margin-left: 4px;
+    margin-bottom: 14px;
+}
+
+/* ==========margin-bottom=========== */
+.m-margin-bottom {
+    margin-bottom: 15px;
+}
+
+
+/* ========background-color========= */
+.m-bk {
+    background-color: #fff;
+}
+/* ===========m-circle============ */
+.m-circle {
+    border-radius: 50%;
+    background-color: #ccc;
+    height: 200px;
+    width: 200px;
+    overflow: hidden; 
+    margin: 0 auto;   
+}
+
+/* =======clear=========== */
+.clearflex {
+    clear: both;
+    box-shadow: none !important;
+    border: none;
+}
+/* ========m-font======== */
+.m-font {
+    text-align: center;
+    margin-top: 20px;
+}
