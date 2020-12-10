@@ -16,7 +16,9 @@ import { Button,
         Tabs,
         TabPane,
         Table,
-        TableColumn
+        TableColumn,
+        RadioGroup,
+        RadioButton
     
 } from 'element-ui'
 
@@ -38,3 +40,5 @@ Vue.use(Tabs)
 Vue.use(TabPane)
 Vue.use(Table)
 Vue.use(TableColumn)
+Vue.use(RadioGroup)
+Vue.use(RadioButton)

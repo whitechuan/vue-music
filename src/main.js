@@ -6,7 +6,7 @@ import globalcss from './assets/css/global.css'
 import {UrlSearch} from './assets/js/getURL'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-
+import $ from 'jquery'
 
 Vue.config.productionTip = false
 
